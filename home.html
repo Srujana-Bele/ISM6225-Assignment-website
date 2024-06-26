@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Stop-Bollywood Movies - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h1>One Stop-Bollywood Movies</h1>
+    </header>
+    <nav>
+        <button onclick="window.location.href='index.html'">Back to Main Page</button>
+        <button onclick="window.location.href='subscription.html'">Subscription Plans</button>
+        <button onclick="window.location.href='wishlist.html'">Wishlist</button>
+        <button onclick="window.location.href='reviews.html'">Reviews</button>
+        <button onclick="window.location.href='visualization.html'">Visualization</button>
+    </nav>
+    <section>
+        <input type="text" id="searchBar" placeholder="Search movies...">
+        <button onclick="searchMovies()">Search</button>
+        <div id="mostWatched">
+            <h2>Most Watched Movies</h2>
+            <div id="mostWatchedMovies">
+                
+            </div>
+        </div>
+        <div id="trending">
+            <h2>Trending Movies</h2>
+            <div id="trendingMovies">
+                
+            </div>
+        </div>
+    </section>
+    <section id="movies">
+        <h2>Movies</h2>
+        <div id="moviesList">
+            
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>

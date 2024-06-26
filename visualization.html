@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualization - One Stop-Bollywood Movies</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="visualization.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>One Stop-Bollywood Movies</h1>
+    </header>
+    <nav>
+        <button onclick="window.location.href='index.html'">Back to Main Page</button>
+        <button onclick="window.location.href='home.html'">Home</button>
+        <button onclick="window.location.href='subscription.html'">Subscription Plans</button>
+        <button onclick="window.location.href='wishlist.html'">Wishlist</button>
+        <button onclick="window.location.href='reviews.html'">Reviews</button>
+    </nav>
+    <section>
+        <h2>Visualization</h2>
+        <div class="chart-container">
+            <div>
+                <canvas id="barChart" width="400" height="400"></canvas>
+            </div>
+            <div>
+                <canvas id="pieChart" width="400" height="400"></canvas>
+            </div>
+        </div>
+        <div class="chart-container">
+            <div>
+                <canvas id="topWatchedChart" width="800" height="400"></canvas>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
